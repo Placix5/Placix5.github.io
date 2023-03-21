@@ -6,13 +6,16 @@ order: 4
 
 <h1 align="center">Hola 👋, mi nombre es Plácido Fernández Cuevas</h1>
 <h3 align="center">Ingeniero informático en Computadores con Máster en Ingeniería Biomédica y Salud Digital</h3>
+<br>
 
-<div align="center"> 
+<!--
+<p align="center"> 
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/Placix5?label=SEGUIDORES&logo=Github&style=for-the-badge">
     <img alt="Discord" src="https://img.shields.io/discord/287902414852325376?label=DISCORD&logo=Discord&style=for-the-badge">
-    <img src="https://img.shields.io/twitch/status/Placix5?logo=twitch&style=for-the-badge" alt="Twitch"/>
+    <img alt="Twitch" src="https://img.shields.io/twitch/status/Placix5?logo=twitch&style=for-the-badge"/>
     <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCnRtiuxAPDXqYssp5_meegw?label=SUSCRIPTORES&logo=youtube&logoColor=red&style=for-the-badge">
-</div>
+</p>
+-->
 
 
 - 🔭 Actualmente, me encuentro trabajando en un proyecto de investigación para la empresa [Vitro S.A.](https://www.vitro.bio/inicio)
