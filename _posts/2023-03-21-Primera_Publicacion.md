@@ -1,6 +1,6 @@
 ---
 title: BIENVENIDA
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2023-03-21 10:30:00 +0100
 categories: [PERSONAL, BIENVENIDA]
 tags: [BIENVENIDA]     # TAG names should always be lowercase
 ---
