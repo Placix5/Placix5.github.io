@@ -1,11 +1,11 @@
 ---
 title: BIENVENIDA
 date: 2023-03-21 10:30:00 +0100
-categories: [PERSONAL, BIENVENIDA]
+categories: [PERSONAL]
 tags: [BIENVENIDA]     # TAG names should always be lowercase
 ---
 
-# HOLA
+# ¡HOLA!
 
 Este es mi primer post en esta página. La verdad es que es mi primera página web de verdad en la que poder compartir todos los proyectos en los que estoy siempre metido.
 
