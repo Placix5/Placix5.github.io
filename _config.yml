@@ -86,7 +86,7 @@ avatar: https://es.gravatar.com/userimage/233201447/ef14dfb22ae4bd21c1eff175ba2f
 toc: true
 
 comments:
-  active: true # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: placix5 # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
