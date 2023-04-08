@@ -5,6 +5,21 @@ categories: [RASPBERRY PI, PICO]
 tags: [RASPBERRYPIPICO PICO RASPBERRY ARM CHAT-GPT]     # TAG names should always be lowercase
 ---
 
+<style> 
+    table {
+    text-align: left;
+    }
+
+    td[align="left"] {
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    }
+
+    td[align="right"] {
+    white-space: nowrap;
+    }
+</style>
+
 ## ¿Qué es la arquitectura ARM?
 La arquitectura ARM es una de las arquitecturas de procesadores más utilizadas en la actualidad. Es la base de la mayoría de los dispositivos móviles y también se utiliza en muchos otros dispositivos, desde relojes inteligentes hasta servidores.
 
