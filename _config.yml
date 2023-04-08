@@ -98,7 +98,7 @@ comments:
   giscus:
     repo: Placix5/Placix5.github.io # <gh-username>/<repo>
     repo_id: R_kgDOJMSmjQ
-    category: R_kgDOJMSmjQ
+    category: General
     category_id: DIC_kwDOJMSmjc4CVoTO
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
