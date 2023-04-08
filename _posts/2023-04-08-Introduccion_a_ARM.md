@@ -5,6 +5,17 @@ categories: [RASPBERRY PI, PICO]
 tags: [RASPBERRYPIPICO PICO RASPBERRY ARM CHAT-GPT]     # TAG names should always be lowercase
 ---
 
+## ¿Qué es la arquitectura ARM?
+La arquitectura ARM es una de las arquitecturas de procesadores más utilizadas en la actualidad. Es la base de la mayoría de los dispositivos móviles y también se utiliza en muchos otros dispositivos, desde relojes inteligentes hasta servidores.
+
+![Dispositivos móviles con arquitectura ARM](https://www.muycomputer.com/wp-content/uploads/2016/02/ARM.jpg)
+
+Se trata de una arquitectura de procesador RISC (Reduced Instruction Set Computing), lo que significa que utiliza un conjunto reducido de instrucciones para hacer que el procesador sea más rápido y eficiente en términos de energía.
+
+Los procesadores que utilizamos en ordenadores de escritorio, por el contrario utilizan una arquitectura de procesador CISC (Complex Instryction Set Computing), lo que significa que las instrucciones que utiliza para funcionar son complejas.
+
+Cada una de estas arquitecturas posee una serie de ventajas e inconvenientes, dependiendo de la aplicación que se les vaya a otorgar. En la siguiente tabla podemos ver sus características resumidas:
+
 <style> 
     table {
     text-align: left;
@@ -20,32 +31,68 @@ tags: [RASPBERRYPIPICO PICO RASPBERRY ARM CHAT-GPT]     # TAG names should alway
     }
 </style>
 
-## ¿Qué es la arquitectura ARM?
-La arquitectura ARM es una de las arquitecturas de procesadores más utilizadas en la actualidad. Es la base de la mayoría de los dispositivos móviles y también se utiliza en muchos otros dispositivos, desde relojes inteligentes hasta servidores.
-
-![Dispositivos móviles con arquitectura ARM](https://www.muycomputer.com/wp-content/uploads/2016/02/ARM.jpg)
-
-Se trata de una arquitectura de procesador RISC (Reduced Instruction Set Computing), lo que significa que utiliza un conjunto reducido de instrucciones para hacer que el procesador sea más rápido y eficiente en términos de energía.
-
-Los procesadores que utilizamos en ordenadores de escritorio, por el contrario utilizan una arquitectura de procesador CISC (Complex Instryction Set Computing), lo que significa que las instrucciones que utiliza para funcionar son complejas.
-
-Cada una de estas arquitecturas posee una serie de ventajas e inconvenientes, dependiendo de la aplicación que se les vaya a otorgar. En la siguiente tabla podemos ver sus características resumidas:
-
-| RISC | CISC |
-| ---- | ---- |
-| Es una arquitectura de conjunto de instrucciones complejas | Es una arquitectura con conjunto de instrucciones reducido |
-| Hace hincapié en el hardware para optimizar el conjunto de instrucciones | Hace hincapié en el software para optimizar el conjunto de instrucciones |
-| Unidad de microprogramación en el procesador | Es una unidad de programación cableada en el procesador |
-| Requiere un único conjunto de registros para almacenar la instrucción | Requiere múltiples conjuntos de registros para almacenar la instrucción |
-| Tiene una compleja decodificación de las instrucciones | Tiene una sencilla decodificación de las instrucciones |
-| Los usos de la canalización son difíciles | Los usos de la canalización son simples |
-| Utiliza una gran cantidad de instrucciones que requieren más tiempo para ejecutar las instrucciones | Utiliza un número limitado de instrucciones que requiere menos tiempo para ejecutar las instrucciones |
-| Utiliza la instrucción LOAD y STORE en la interacción de memoria a memoria de un programa | Utiliza LOAD y STORE que son instrucciones independientes en el registro para registrar la interacción de un programa |
-| Tiene transistores para almacenar instrucciones complejas | Tiene más transistores en registros de memoria |
-| El tiempo de ejecución es mayor | El tiempo de ejecución es muy corto |
-| Se puede utilizar con aplicaciones de alta gama como telecomunicaciones, procesamiento de imágenes, procesamiento de video, etc. | Se puede utilizar con aplicaciones de gama baja como domótica, sistema de seguridad, etc. |
-| Tiene instrucciones de formato variable | Tiene instrucciones de formato fijo |
-| Los programas escritos para esta arquitectura tienden a ocupar menos espacio en la memoria | El programa escrito para esta arquitectura necesita ocupar más espacio en la memoria |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">RISC</th>
+    <th class="tg-0pky">CISC</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+<td>Es una arquitectura con conjunto de instrucciones reducido</td>
+<td>Es una arquitectura de conjunto de instrucciones complejas</td>
+</tr>
+<tr>
+<td>Hace hincapié en el software para optimizar el conjunto de instrucciones</td>
+<td>Hace hincapié en el hardware para optimizar el conjunto de instrucciones</td>
+</tr>
+<tr>
+<td>Es una unidad de programación cableada en el procesador</td>
+<td>Unidad de microprogramación en el procesador</td>
+</tr>
+<tr>
+<td>Requiere múltiples conjuntos de registros para almacenar la instrucción</td>
+<td>Requiere un único conjunto de registros para almacenar la instrucción</td>
+</tr>
+<tr>
+<td>Tiene una sencilla decodificación de las instrucciones</td>
+<td>Tiene una compleja decodificación de las instrucciones</td>
+</tr>
+<tr>
+<td>Los usos de la canalización son simples</td>
+<td>Los usos de la canalización son difíciles</td>
+</tr>
+<tr>
+<td>Utiliza un número limitado de instrucciones que requiere menos tiempo para ejecutar las instrucciones</td>
+<td>Utiliza una gran cantidad de instrucciones que requieren más tiempo para ejecutar las instrucciones</td>
+</tr>
+<tr>
+<td>Utiliza LOAD y STORE que son instrucciones independientes en el registro para registrar la interacción de un programa</td>
+<td>Utiliza la instrucción LOAD y STORE en la interacción de memoria a memoria de un programa</td>
+</tr>
+<tr>
+<td>Tiene más transistores en registros de memoria</td>
+<td>Tiene transistores para almacenar instrucciones complejas</td>
+</tr>
+<tr>
+<td>El tiempo de ejecución es muy corto</td>
+<td>El tiempo de ejecución es mayor</td>
+</tr>
+<tr>
+<td>Se puede utilizar con aplicaciones de gama baja como domótica, sistema de seguridad, etc.</td>
+<td>Se puede utilizar con aplicaciones de alta gama como telecomunicaciones, procesamiento de imágenes, procesamiento de video, etc.</td>
+</tr>
+<tr>
+<td>Tiene instrucciones de formato fijo</td>
+<td>Tiene instrucciones de formato variable</td>
+</tr>
+<tr>
+<td>El programa escrito para esta arquitectura necesita ocupar más espacio en la memoria</td>
+<td>Los programas escritos para esta arquitectura tienden a ocupar menos espacio en la memoria</td>
+</tr>
+</tbody>
+</table>
 
 ## ¿Por qué se utiliza la arquitectura ARM?
 La arquitectura ARM se utiliza en una amplia variedad de dispositivos debido a su eficiencia energética y su capacidad para procesar grandes cantidades de datos. Esto la convierte en una opción popular para dispositivos móviles y otros dispositivos que requieren una gran cantidad de procesamiento en un paquete pequeño.
