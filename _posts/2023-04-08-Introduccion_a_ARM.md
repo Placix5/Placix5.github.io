@@ -1,6 +1,6 @@
 ---
 title: INTRODUCCIÓN A ARM
-date: 2023-08-04 12:30:00 +0100
+date: 2023-04-08 12:00:00 +0100
 categories: [RASPBERRY PI, PICO]
 tags: [RASPBERRYPIPICO PICO RASPBERRY ARM CHAT-GPT]     # TAG names should always be lowercase
 ---
